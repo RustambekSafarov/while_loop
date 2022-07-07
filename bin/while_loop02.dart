@@ -7,10 +7,10 @@ int func(a){
   int d = 0;
   while (b < a){
   
-  b = b + 1;
-  if (b % 2 == 0){
-    d+=1;
-  }    
+    b = b + 1;
+    if (b % 2 == 0){
+      d+=1;
+    }    
   }
   return d;
 }
