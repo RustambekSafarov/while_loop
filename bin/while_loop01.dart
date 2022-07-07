@@ -4,17 +4,16 @@
 */
 int func(a){
   int b = 0;
-  num d = 0;
-  while (a != 0){
-    d = a % 10;
-    if (d % 2 == 1){
-      b += 1;
-      
-    }
-    a ~/= 10;
+  int d = 0;
+  while (b < a){
+  
+  b = b + 1;
+  if (b % 2 == 1){
+    d+=1;
+  }    
   }
-  return b;
+  return d;
 }
 void main() {
-  print(func(3579));
+  print(func(12));
 }
