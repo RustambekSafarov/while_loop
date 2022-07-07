@@ -7,15 +7,21 @@
 String func(a){
   int b = 0;
   int d = 0;
+  String x = "";
+  
   while (b < a){
   
     b = b + 1;
+    
     if (b % 2 == 1){
-      d+=1;
-
-    }    
+      x += b.toString();
+      
+      
+    }   
+    
+    
   }
-  String x = d.toString();
+  
   return x;
 }
 void main() {
