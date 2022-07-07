@@ -8,7 +8,7 @@ int func(a){
   while (b < a){
   
     b = b + 1;
-    if (b % 2 == 0){
+    if (b % 2 == 1){
       d+=1;
     }    
   }
