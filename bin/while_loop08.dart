@@ -11,7 +11,7 @@ String func(a){
   
     b = b + 1;
     if (b % 2 == 1){
-      d+=b;
+      d+=1;
 
     }    
   }
