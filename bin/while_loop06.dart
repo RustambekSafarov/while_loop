@@ -11,14 +11,14 @@ int func(a){
   
     b = b + 1;
     if (b % 2 == 1){
-      d+=1;
+      d+=b;
     }    
   }
   while (x < a){
   
     x = x + 1;
     if (x % 2 == 0){
-      y+=1;
+      y+=x;
     }    
   }
   if(d>y){
@@ -27,5 +27,5 @@ int func(a){
   return y;
 }  
 void main() {
-  print(func(15));
+  print(func(5));
 }
