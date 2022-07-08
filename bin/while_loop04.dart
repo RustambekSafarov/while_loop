@@ -16,5 +16,5 @@ int func(a){
   return d;
 }
 void main() {
-  print(func(12));
+  print(func(5));
 }
