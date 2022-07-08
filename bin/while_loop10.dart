@@ -15,10 +15,10 @@ String func(a){
   
   b ++;
     if (a % b == 0){
-      return x;
+      return y;
     }    
   }
-  return y;
+  return x;
 }
 void main() {
   print(func(8));
