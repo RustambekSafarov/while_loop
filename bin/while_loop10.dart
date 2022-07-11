@@ -7,18 +7,22 @@
   
 */
 String func(a){
-  int b = 0;
-  int d = 0;
-  String x = "tub son";
-  String y = "tub son emas";
-  while (b < a){
-  
-  b ++;
-    if (a % b == 0){
-      return y;
-    }    
+  int x = 0;
+  int y = 0;
+  while(x <= a){
+    x ++;
+    if(a % x == 0){
+      y ++;
+    }
   }
-  return x;
+
+  String z = "";
+  if(y == 2){
+    z = "tub son";
+  } else {
+    z = "tub son emas";
+  }
+  return z;
 }
 void main() {
   print(func(11));
