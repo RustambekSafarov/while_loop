@@ -25,5 +25,5 @@ String func(a){
   return z;
 }
 void main() {
-  print(func(11));
+  print(func(51));
 }
